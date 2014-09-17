@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>arrow</title>
+    <style>
+        .box{
+            border : 1px solid #f00;
+            width:300px;
+            height:100px;
+            position:relative;
+        }
+        .arrow{
+            position:absolute;
+            right:0;
+            top:40px;
+        }
+        .arrow-inner{
+            border-left : 10px dashed #f00;
+            border-right : 10px dashed transparent;
+            border-top : 10px dashed transparent;
+            border-bottom : 10px dashed transparent;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="content"></div>
+        <div class="arrow">
+            <div class="arrow-inner"></div>
+            <div class="arrow-out"></div>
+        </div>
+    </div>
+</body>
+</html>
